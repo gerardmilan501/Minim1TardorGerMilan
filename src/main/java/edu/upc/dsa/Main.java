@@ -42,6 +42,7 @@ public class Main {
         beanConfig.setTitle("REST API");
         beanConfig.setVersion("1.0.0");
         beanConfig.setScan(true);
+        // hola t'the canviat
 
         // create and start a new instance of grizzly http server
         // exposing the Jersey application at BASE_URI
