@@ -5,12 +5,12 @@ import java.util.List;
 public interface MuestraManager {
 
 
-    public muestra addMuestra(String idmuestra, String idclinic, String id, String fecha, String idlab);
-    public muestra addMuestra(muestra idmuestra);
+    public muestra addmuestra(String idmuestra, String idclinic, String id, String fecha, String idlab);
+    public muestra addmuestra(muestra idmuestra);
     public muestra getTrack(String idmuestra);
     public List<muestra> findAll();
-    public void deleteMuestra(String idmuestra);
-    public muestra updateMuestra(muestra idmuestra);
+    public void deletemuestra(String idmuestra);
+    public muestra updatemuestra(muestra idmuestra);
 
     public int size();
 }
