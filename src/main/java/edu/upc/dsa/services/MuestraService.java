@@ -45,7 +45,7 @@ public class MuestraService {
     @ApiOperation(value = "get a Tmuestra", notes = "asdasd")
     @ApiResponses(value = {
             @ApiResponse(code = 201, message = "Successful", response = muestra.class),
-            @ApiResponse(code = 404, message = "Track not found")
+            @ApiResponse(code = 404, message = "Muestra not found")
     })
     @Path("/{idmuestra}")
     @Produces(MediaType.APPLICATION_JSON)
